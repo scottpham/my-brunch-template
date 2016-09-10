@@ -1,0 +1,22 @@
+{
+  "name": "my-simple-brunch-app",
+  "description": "Description",
+  "main": "",
+  "authors": [
+    "Your Name"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}

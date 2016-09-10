@@ -1,8 +1,6 @@
-var title = "THE NEW TITLE";
-
-var setTitle = function() {
-  $('h1').html(title);
+var logme = function() {
+  console.log("What it is");
 }
 module.exports = {
-  setTitle: setTitle
+  logme: logme
 }

@@ -1,5 +1,5 @@
 {
-  "name": "brunch-app",
+  "name": "my-simple-brunch-app",
   "description": "Description",
   "author": "Your Name",
   "version": "0.1.0",
@@ -9,18 +9,16 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "postinstall": "bower install && cp bower_components/bootstrap/fonts/* app/assets/fonts/ && cp bower_components/bootstrap/dist/css/bootstrap.css app/styles/vendor/bootstrap.css"
   },
-  "dependencies": {
-    "browser-sync-brunch": "0.0.9",
-    "d3": "^4.2.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "browser-sync-brunch": "0.0.9",
     "brunch": "^2.0.0",
-    "javascript-brunch": "^2.0.0",
-    "css-brunch": "^2.0.0",
-    "uglify-js-brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
-    "auto-reload-brunch": "^2.0.0"
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0"
   }
 }
