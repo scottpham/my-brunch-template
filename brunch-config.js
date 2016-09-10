@@ -23,5 +23,11 @@ module.exports = {
     templates: {
       joinTo: 'app.js'
     }
+  },
+  plugins: {
+    browserSync: {
+      port: 3333,
+      logLevel: "debug"
+    }
   }
 };
